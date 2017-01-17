@@ -32,7 +32,7 @@ Coming soon via a blog post. Stay tuned!
 
 ##### Apache Spark latest [v2.1.0]
 
-[Dockerfile for Apache Spark v2.1.0](https://github.com/saniyatech/docker-spark/tree/2.1.0)
+[Dockerfile for Apache Spark v2.1.0](https://github.com/saniyatech/docker-spark/tree/v2.1.0)
 
 
 [MIT-License]: https://img.shields.io/badge/License-MIT-yellow.svg "MIT License"
