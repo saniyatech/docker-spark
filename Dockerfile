@@ -1,7 +1,7 @@
 # 
 # MIT License
 #
-# Copyright (c) 2017 Saniya Tech Inc.
+# Copyright (c) 2018 Saniya Tech Inc.
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
 # associated documentation files (the "Software"), to deal in the Software without restriction, 
@@ -40,7 +40,7 @@ RUN set -x \
 ##### Spark Environment Vars #####
 ENV INSTALL_DIR /usr/local
 ENV SPARK_HOME $INSTALL_DIR/spark
-ENV SPARK_VERSION 2.1.3
+ENV SPARK_VERSION 2.2.2
 ENV HADOOP_VERSION 2.7
 ENV SPARK_TGZ_URL https://www.apache.org/dist/spark/spark-$SPARK_VERSION/spark-$SPARK_VERSION-bin-hadoop$HADOOP_VERSION.tgz
 
