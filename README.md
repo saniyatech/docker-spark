@@ -6,13 +6,13 @@
 
 #### Overview
 
-The image is built on top of OpenJDK (8-jdk). The latest version (2.2.2) of Apache Spark is installed in this image. Additionally, ssh has been installed and set-up to be executed password-less. For Apache Spark to be deployed in cluster mode, password-less ssh setup is mandatory.
+The image is built on top of OpenJDK (8-jdk). The latest version (2.3.1) of Apache Spark is installed in this image. Additionally, ssh has been installed and set-up to be executed password-less. For Apache Spark to be deployed in cluster mode, password-less ssh setup is mandatory.
 
 #### Running in Local mode:
 
 Apache Spark can be executed in local mode without any additional setup.
 
-Start the Docker image by executing the Docker `run` command passing `/bin/sh` command option to start an interactive shell session.
+Start the Docker image by executing the Docker `run` command passing `/bin/bash` command option to start an interactive shell session.
 
 ```shell
 docker run -it docker-spark /bin/bash
@@ -26,9 +26,10 @@ $SPARK_HOME/bin/spark-shell --master local[2]
 
 #### Supported Apache Spark Versions:
 
-##### Apache Spark latest [v2.2.2]
+##### Apache Spark latest [v2.3.1]
 
-[Dockerfile for Apache Spark v2.2.2](https://github.com/saniyatech/docker-spark/tree/v2.2.2)
+[Dockerfile for Apache Spark v2.3.1](https://github.com/saniyatech/docker-spark/tree/v2.3.1)  
+[Dockerfile for Apache Spark v2.2.2](https://github.com/saniyatech/docker-spark/tree/v2.2.2)  
 [Dockerfile for Apache Spark v2.1.3](https://github.com/saniyatech/docker-spark/tree/v2.1.3)
 
 
