@@ -6,7 +6,7 @@
 
 #### Overview
 
-The image is built on top of OpenJDK (8-jdk). The version (2.3.3) of Apache Spark is installed in this image. Additionally, ssh has been installed and set-up to be executed password-less. For Apache Spark to be deployed in cluster mode, password-less ssh setup is mandatory.
+The image is built on top of OpenJDK (8-jdk). The version (2.3.4) of Apache Spark is installed in this image. Additionally, ssh has been installed and set-up to be executed password-less. For Apache Spark to be deployed in cluster mode, password-less ssh setup is mandatory.
 
 #### Running in Local mode:
 
@@ -26,9 +26,9 @@ $SPARK_HOME/bin/spark-shell --master local[2]
 
 #### Supported Apache Spark Versions:
 
-##### Apache Spark latest [v2.3.3]
+##### Apache Spark latest [v2.3.4]
 
-[Dockerfile for Apache Spark v2.3.3](https://github.com/saniyatech/docker-spark/tree/v2.3.3)
+[Dockerfile for Apache Spark v2.3.4](https://github.com/saniyatech/docker-spark/tree/v2.3.4)
 
 
 [MIT-License]: https://img.shields.io/badge/License-MIT-yellow.svg "MIT License"
